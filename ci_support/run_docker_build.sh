@@ -37,6 +37,9 @@ echo "$config" > ~/.condarc
 # A lock sometimes occurs with incomplete builds. The lock file is stored in build_artefacts.
 conda clean --lock
 
+# library dependencies for qimage2ndarray
+yum install -y libXext libXrender libSM tk libX11-devel
+
 conda info
 
 
