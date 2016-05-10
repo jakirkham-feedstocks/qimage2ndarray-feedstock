@@ -3,9 +3,9 @@ About qimage2ndarray
 
 Home: https://github.com/hmeine/qimage2ndarray
 
-Package license: BSD License
+Package license: BSD 3-Clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Conversion between QImages and numpy.ndarrays.
 
