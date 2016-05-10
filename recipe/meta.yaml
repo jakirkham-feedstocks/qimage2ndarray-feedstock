@@ -1,10 +1,12 @@
+{% set version="1.5.1" %}
+
 package:
   name: qimage2ndarray
-  version: "1.5.1"
+  version: {{ version }}
 
 source:
-  fn: qimage2ndarray-1.5.1.tar.gz
-  url: https://pypi.python.org/packages/source/q/qimage2ndarray/qimage2ndarray-1.5.1.tar.gz
+  fn: qimage2ndarray-{{ version }}.tar.gz
+  url: https://pypi.python.org/packages/source/q/qimage2ndarray/qimage2ndarray-{{ version }}.tar.gz
   md5: 73743819ccf6043f237c6b7f63732674
 
 build:
