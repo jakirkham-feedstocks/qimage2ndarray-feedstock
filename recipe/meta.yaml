@@ -1,6 +1,6 @@
 {% set name = "qimage2ndarray" %}
-{% set version = "1.5.1" %}
-{% set sha256 = "5aaf480715436c7820c1ce94c039a0874b7de435274f5b772bd33b1dba0e736f" %}
+{% set version = "1.6" %}
+{% set sha256 = "92c1f3accc26f5762066f924ebc4f09c4f76ff483f97ed9fdc80843bc644f7c9" %}
 
 package:
   name: {{ name }}
@@ -12,19 +12,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
     - python
     - setuptools
-    - sip
 
   run:
     - python
     - numpy
-    - sip
     - pyqt 4.11.*
 
 test:
