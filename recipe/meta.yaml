@@ -10,7 +10,7 @@ source:
   md5: 73743819ccf6043f237c6b7f63732674
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -19,13 +19,13 @@ requirements:
     - setuptools
     - numpy
     - sip
-    - pyqt
+    - pyqt 4.11.*
 
   run:
     - python
     - numpy
     - sip
-    - pyqt
+    - pyqt 4.11.*
 
 test:
   imports:
