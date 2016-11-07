@@ -34,6 +34,7 @@ test:
 about:
   home: https://github.com/hmeine/qimage2ndarray
   license: BSD 3-Clause
+  license_family: BSD
   summary: Conversion between QImages and numpy.ndarrays.
 
 extra:
