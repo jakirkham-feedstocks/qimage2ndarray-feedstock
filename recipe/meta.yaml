@@ -19,9 +19,7 @@ requirements:
   build:
     - python
     - setuptools
-    - numpy
     - sip
-    - pyqt 4.11.*
 
   run:
     - python
