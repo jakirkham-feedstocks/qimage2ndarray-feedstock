@@ -9,6 +9,8 @@ Feedstock license: BSD 3-Clause
 
 Summary: Conversion between QImages and numpy.ndarrays.
 
+qimage2ndarray is a small python extension for quickly converting
+between ``QImages`` and ``numpy.ndarrays`` (in both directions).
 
 
 Installing qimage2ndarray
