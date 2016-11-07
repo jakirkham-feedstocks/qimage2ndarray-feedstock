@@ -36,6 +36,11 @@ about:
   license: BSD 3-Clause
   license_family: BSD
   summary: Conversion between QImages and numpy.ndarrays.
+  description: |
+    qimage2ndarray is a small python extension for quickly converting
+    between ``QImages`` and ``numpy.ndarrays`` (in both directions).
+  doc_url: http://hmeine.github.io/qimage2ndarray
+  dev_url: https://github.com/hmeine/qimage2ndarray
 
 extra:
   recipe-maintainers:
