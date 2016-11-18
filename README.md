@@ -35,7 +35,6 @@ conda search qimage2ndarray --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
