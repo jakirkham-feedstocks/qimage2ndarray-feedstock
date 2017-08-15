@@ -27,6 +27,9 @@ requirements:
 
 test:
   imports:
+    # Need to import Python-bindings first
+    # so that qimage2ndarray recognizes them.
+    - PyQt5
     - qimage2ndarray
 
 about:
