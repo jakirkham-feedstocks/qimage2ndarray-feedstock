@@ -26,11 +26,20 @@ requirements:
     - pyqt
 
 test:
+  requires:
+    - nose
+
+  source_files:
+    - test
+
   imports:
     # Need to import Python-bindings first
     # so that qimage2ndarray recognizes them.
     - PyQt5
     - qimage2ndarray
+
+  commands:
+    - nosetests test
 
 about:
   home: https://github.com/hmeine/qimage2ndarray
