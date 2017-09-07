@@ -16,9 +16,7 @@ between ``QImages`` and ``numpy.ndarrays`` (in both directions).
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/qimage2ndarray-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/qimage2ndarray-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/qimage2ndarray-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/qimage2ndarray-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/qimage2ndarray-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/qimage2ndarray-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/qimage2ndarray-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/qimage2ndarray-feedstock)
 
 Current release info
 ====================
